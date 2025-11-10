@@ -158,6 +158,10 @@ cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
 
 ## 💡 Example Transformations
 
+The examples below show how A-PIRO transforms vague prompts into detailed, optimized prompts.
+**Input**: Simple prompt sent to A-PIRO agent
+**Output**: Detailed, structured prompt ready for immediate use
+
 ### 🎯 Example 1: 3D HTML Apple Creation
 
 **Before (Vague Prompt):**
@@ -170,7 +174,7 @@ cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
 "@agent-automatic-prompt-intent-recognition-optimization Create 3D HTML apple"
 ```
 
-**After (A-PIRO Optimized):**
+**Optimized Prompt Output (A-PIRO Generated):**
 ```markdown
 **Objective**: Create a photorealistic 3D apple using pure CSS for web display
 
@@ -222,7 +226,7 @@ cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
 "@agent-automatic-prompt-intent-recognition-optimization Create API for user management"
 ```
 
-**After (A-PIRO Optimized):**
+**Optimized Prompt Output (A-PIRO Generated):**
 ```markdown
 **Objective**: Build production-ready REST API for user management system
 
@@ -277,7 +281,7 @@ cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
 "Analyze sales data to find patterns"
 ```
 
-**After (A-PIRO Optimized):**
+**Optimized Prompt Output (A-PIRO Generated):**
 ```markdown
 **Objective**: Analyze e-commerce sales data to identify customer behavior patterns and actionable insights
 
