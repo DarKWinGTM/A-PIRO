@@ -164,14 +164,14 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 ### 🎯 Example 1: 3D HTML Apple Creation
 
-**Before (Vague Prompt):**
+**Input (User Request):**
 ```
 "Create 3D HTML apple"
 ```
 
-**How to use A-PIRO Agent:**
+**Agent Invocation:**
 ```
-"@agent-automatic-prompt-intent-recognition-optimization Create 3D HTML apple"
+@agent-automatic-prompt-intent-recognition-optimization Create 3D HTML apple
 ```
 
 **Optimized Prompt Output (A-PIRO Generated):**
@@ -216,14 +216,14 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 ### 🎯 Example 2: E-commerce API Development
 
-**Before (Inefficient Prompt):**
+**Input (User Request):**
 ```
 "Create an API for user management"
 ```
 
-**How to use A-PIRO Agent:**
+**Agent Invocation:**
 ```
-"@agent-automatic-prompt-intent-recognition-optimization Create API for user management"
+@agent-automatic-prompt-intent-recognition-optimization Create API for user management
 ```
 
 **Optimized Prompt Output (A-PIRO Generated):**
@@ -276,9 +276,14 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 ### 🎯 Example 3: Data Science Analysis
 
-**Before (Basic Request):**
+**Input (User Request):**
 ```
 "Analyze sales data to find patterns"
+```
+
+**Agent Invocation:**
+```
+@agent-automatic-prompt-intent-recognition-optimization Analyze sales data to find patterns
 ```
 
 **Optimized Prompt Output (A-PIRO Generated):**
@@ -318,6 +323,78 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 - Visualization: matplotlib, seaborn, plotly
 - Database: PostgreSQL + SQL queries
 - Statistical analysis: A/B testing capabilities
+```
+
+## 📝 Additional Example: Performance Optimization
+
+**Input (User Request):**
+```
+"ฉันอยากได้ Prompt สำหรับกา เพิ่ม performence ให้กับ
+/home/node/workplace/AWCLOUD/[AWCLOUD] awcloud-cpanel-source/static/js/image.lazy.manager.js"
+```
+
+**Agent Invocation:**
+```
+@agent-automatic-prompt-intent-recognition-optimization
+Optimize performance for image.lazy.manager.js in awcloud cpanel
+```
+
+**Optimized Prompt Output (A-PIRO Generated):**
+```markdown
+**Objective**: Optimize JavaScript performance for image.lazy.manager.js in web cpanel system
+
+**File Context**:
+- **Path**: /home/node/workplace/AWCLOUD/[AWCLOUD] awcloud-cpanel-source/static/js/image.lazy.manager.js
+- **Purpose**: Lazy loading image management system for cpanel
+- **Current Issue**: Slow performance, memory leaks, inefficient DOM manipulation
+
+**Performance Targets**:
+- Reduce initial load time by 40%+ (from 3s to <2s)
+- Improve memory efficiency by 30% (fix memory leaks)
+- Enhance Core Web Vitals compliance
+- Support 1000+ concurrent image loads
+- Minimize main thread blocking
+
+**Technical Optimization Requirements**:
+- Implement Intersection Observer v2 API
+- Add progressive image loading with blur effects
+- Create adaptive quality based on network conditions
+- Optimize memory usage with object pooling
+- Add preload for critical above-fold images
+- Implement error boundaries with fallback strategies
+- Use requestIdleCallback for non-critical operations
+- Optimize event listeners and remove properly
+- Implement virtual scrolling for large image sets
+
+**Code Quality Standards**:
+- ESLint compliance with zero warnings
+- Unit test coverage >95%
+- Memory leak prevention (Chrome DevTools validation)
+- Performance budget: <50KB gzipped JavaScript
+- Cross-browser compatibility: Chrome 70+, Firefox 65+, Safari 13+
+
+**Security Considerations**:
+- Sanitize all image URLs
+- Implement CSP (Content Security Policy)
+- Validate image dimensions before processing
+- Prevent XSS through proper DOM manipulation
+- Add rate limiting for image requests
+
+**Deliverables**:
+1. Optimized JavaScript code with performance improvements
+2. Performance benchmark report (before/after metrics)
+3. Memory usage analysis and leak fixes
+4. Core Web Vitals impact assessment
+5. Browser compatibility testing results
+6. Implementation guide with best practices
+
+**Success Metrics**:
+- Largest Contentful Paint (LCP): <2.5s
+- First Input Delay (FID): <100ms
+- Cumulative Layout Shift (CLS): <0.1
+- Memory usage reduction: 30%+
+- Load performance improvement: 40%+
+- Test coverage: 95%+
 ```
 
 ## 📊 Performance Impact
