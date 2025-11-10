@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Testing
+.coverage
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Backup files
+*.bak
+*.backup
+
+# Documentation build
+docs/_build/
+site/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Local development
+.local/
+.localization/
+
+# Generated assets
+*.min.js
+*.min.css
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
