@@ -171,7 +171,8 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 **Agent Invocation:**
 ```
-@agent-automatic-prompt-intent-recognition-optimization Create 3D HTML apple
+I want to get a prompt for Create 3D HTML apple
+@agent-automatic-prompt-intent-recognition-optimization 
 ```
 
 **Optimized Prompt Output (A-PIRO Generated):**
@@ -223,6 +224,7 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 **Agent Invocation:**
 ```
+Optimize this prompt 
 @agent-automatic-prompt-intent-recognition-optimization Create API for user management
 ```
 
@@ -329,14 +331,13 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 **Input (User Request):**
 ```
-"I want to get a prompt for optimizing performance for
-/home/node/workplace/AWCLOUD/[AWCLOUD] awcloud-cpanel-source/static/js/image.lazy.manager.js"
+"Optimizing performance for image.lazy.manager.js"
 ```
 
 **Agent Invocation:**
 ```
+I want to get a prompt for Optimize performance for image.lazy.manager.js in awcloud cpanel
 @agent-automatic-prompt-intent-recognition-optimization
-Optimize performance for image.lazy.manager.js in awcloud cpanel
 ```
 
 **Optimized Prompt Output (A-PIRO Generated):**
