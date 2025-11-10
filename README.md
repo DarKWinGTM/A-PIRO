@@ -329,7 +329,7 @@ The examples below show how A-PIRO transforms vague prompts into detailed, optim
 
 **Input (User Request):**
 ```
-"ฉันอยากได้ Prompt สำหรับกา เพิ่ม performence ให้กับ
+"I want to get a prompt for optimizing performance for
 /home/node/workplace/AWCLOUD/[AWCLOUD] awcloud-cpanel-source/static/js/image.lazy.manager.js"
 ```
 
@@ -344,8 +344,8 @@ Optimize performance for image.lazy.manager.js in awcloud cpanel
 **Objective**: Optimize JavaScript performance for image.lazy.manager.js in web cpanel system
 
 **File Context**:
-- **Path**: /home/node/workplace/AWCLOUD/[AWCLOUD] awcloud-cpanel-source/static/js/image.lazy.manager.js
-- **Purpose**: Lazy loading image management system for cpanel
+- **File**: image.lazy.manager.js (JavaScript performance optimization)
+- **Purpose**: Lazy loading image management system for web cpanel
 - **Current Issue**: Slow performance, memory leaks, inefficient DOM manipulation
 
 **Performance Targets**:
