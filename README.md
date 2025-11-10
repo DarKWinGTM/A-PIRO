@@ -86,7 +86,10 @@ cd A-PIRO
 4. **Start Using A-PIRO**:
 ```bash
 # Launch the A-PIRO agent
-/automatic-prompt-intent-recognition-optimization "Your prompt here"
+@agent-automatic-prompt-intent-recognition-optimization "Your prompt here"
+
+# Alternative: Use in chat
+@agent-automatic-prompt-intent-recognition-optimization Create optimized prompt for...
 ```
 
 ### Basic Usage
@@ -95,6 +98,13 @@ cd A-PIRO
 2. **Study the 10 Phases**: Dive into [docs/methodology.md](docs/methodology.md)
 3. **Use Templates**: Explore ready-made templates in [templates/](templates/)
 4. **See Examples**: Check out transformations in [examples/](examples/)
+5. **Apply A-PIRO**: Use `@agent-automatic-prompt-intent-recognition-optimization` with your prompt
+
+### Quick Example
+```
+@agent-automatic-prompt-intent-recognition-optimization
+Create a secure authentication system for a web application
+```
 
 ## 📚 Documentation
 
@@ -148,11 +158,68 @@ cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
 
 ## 💡 Example Transformations
 
-### 🎯 Example 1: E-commerce API Development
+### 🎯 Example 1: 3D HTML Apple Creation
+
+**Before (Vague Prompt):**
+```
+"Create 3D HTML apple"
+```
+
+**How to use A-PIRO Agent:**
+```
+"@agent-automatic-prompt-intent-recognition-optimization Create 3D HTML apple"
+```
+
+**After (A-PIRO Optimized):**
+```markdown
+**Objective**: Create a photorealistic 3D apple using pure CSS for web display
+
+**Technical Requirements**:
+- Technology: Pure CSS 3D transforms (no images or Canvas)
+- Dimensions: 3D realistic with shadows and depth
+- Size: 200x200px minimum
+- Compatibility: Modern browsers with CSS Grid + Flexbox fallback
+
+**Visual Specifications**:
+- **Shape**: Realistic apple form with natural curves
+- **Colors**:
+  - Body: Gradient from #FF6B6B to #CC0000
+  - Stem: Brown (#8B4513) with subtle curve
+  - Leaf: Green (#228B22) with realistic shape
+- **Lighting**: Top-left light source with soft shadows
+- **Surface**: Subtle texture for realistic appearance
+
+**CSS Techniques Required**:
+- `transform-style: preserve-3d`
+- Multiple `transform3d()` for shape creation
+- `box-shadow` for depth and shadows
+- CSS gradients for color transitions
+- `::before` and `::after` pseudo-elements for details
+
+**Deliverables**:
+1. Complete HTML structure
+2. CSS stylesheet with 3D transforms
+3. Responsive design compatibility
+4. Cross-browser testing results
+5. Performance optimization notes
+
+**Success Criteria**:
+- Visual realism score: 8.5+/10
+- Performance: <1s render time
+- Mobile responsiveness: 100%
+- Browser compatibility: Chrome 60+, Firefox 55+, Safari 12+
+```
+
+### 🎯 Example 2: E-commerce API Development
 
 **Before (Inefficient Prompt):**
 ```
 "Create an API for user management"
+```
+
+**How to use A-PIRO Agent:**
+```
+"@agent-automatic-prompt-intent-recognition-optimization Create API for user management"
 ```
 
 **After (A-PIRO Optimized):**
@@ -203,7 +270,7 @@ cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
 5. Deployment guide
 ```
 
-### 🎯 Example 2: Data Science Analysis
+### 🎯 Example 3: Data Science Analysis
 
 **Before (Basic Request):**
 ```
