@@ -7,11 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Description Updated (V5.5):** Upgraded agent description to reflect A-PIRO V5.5 capabilities including Dual-Gradient Analysis, Evidence-Based Research, and Mockup Prevention.
+- **Firewall & Safety Logic:** Added strict Role-Based Firewalls and Mockup Prevention layers.
+- **File Structure:** Replaced `automatic-prompt-intent-recognition-optimization.md` with `prompt-optimizer.md`.
+
 ### Added
-- Initial project structure
-- Comprehensive documentation
-- Contribution guidelines
-- Performance metrics framework
+- **Testing Protocol:** Added DEV ONLY testing section with 4 core test cases.
 
 ## [1.0.0] - 2025-11-11
 
