@@ -88,3 +88,9 @@ site/
 *.zip
 *.tar.gz
 *.rar
+
+# Template Exclusions (Internal)
+scripts/
+tests/
+.claude/
+.github/
