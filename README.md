@@ -1,618 +1,100 @@
-# A-PIRO: Automatic Prompt Intent Recognition Optimization
+# A-PIRO: Automatic Prompt Intent Recognition Optimization (V5.5)
 
 <!-- Badges -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/DarKWinGTM/A-PIRO.svg?style=social&label=Star)](https://github.com/DarKWinGTM/A-PIRO)
-[![GitHub forks](https://img.shields.io/github/forks/DarKWinGTM/A-PIRO.svg?style=social&label=Fork)](https://github.com/DarKWinGTM/A-PIRO)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Claude](https://img.shields.io/badge/Claude-Agent-10.0+-blue)](https://claude.ai)
-[![Documentation](https://img.shields.io/badge/Documentation-100%25-green)](docs/)
-
-<!-- Keywords for GitHub search optimization -->
-<!-- AI, Prompt Engineering, Claude Agent, LLM Optimization, Artificial Intelligence, Machine Learning, A-PIRO -->
+[![Version](https://img.shields.io/badge/version-5.5-blue.svg)](CHANGELOG.md)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-green.svg)]()
 
 ## 🎯 What is A-PIRO?
 
-A-PIRO (Automatic Prompt Intent Recognition Optimization) is a systematic methodology for analyzing, optimizing, and refining prompts to achieve maximum effectiveness in AI interactions. It transforms vague or suboptimal prompts into high-performance, precisely targeted instructions that deliver consistent, accurate results.
+**A-PIRO (Automatic Prompt Intent Recognition Optimization)** is an industry-standard **Prompt Engineering Engine** designed to transform raw, vague user inputs into high-fidelity, mission-critical System Prompts.
 
-**🔥 Perfect for:** AI Developers, Prompt Engineers, Data Scientists, Content Creators, Machine Learning Engineers, Claude Users, LLM Practitioners, AI Researchers
+Unlike standard "prompt improvers," A-PIRO uses a rigourous **V5.5 Hybrid Architecture** combining:
+*   **Dual-Gradient Analysis**: Optimizing for both fixes (negative gradient) and feature reinforcement (positive gradient).
+*   **Evidence-Based Research**: Real-time web validation of stacks and libraries (prevents hallucinations).
+*   **Beam Search Simulation**: Mentally simulating multiple architectural candidates before selection.
+*   **Mockup Prevention Guard**: A 4-layer defense system against fake APIs, "todo" placeholders, and unrealistic guarantees.
 
-**🌍 Used in:** Software Engineering, Data Science, Content Creation, Business Analysis, API Development, Machine Learning, Academic Research
+## ✨ Key Features (V5.5)
 
-## 📑 Table of Contents
+- **🛡️ Role-Based Firewalls**: Automatically detects and blocks requests for "implementation code" (Builder stance), forcing an "Architect stance" (Prompt Design) instead.
+- **🔍 Evidence-Based Research**: Dynamic verification of libraries and versions using `WebSearch` (max 30s) to ensure prompts are grounded in current reality.
+- **🧬 Evolutionary Validation**: A self-correcting validation loop that scores prompts on Compliance vs. Quality and mutates them until they reach >9.5/10.
+- **📝 Sidecar Protocol**: Generates a separate `*.apo_log.md` file detailing the *reasoning* behind every optimization decision.
+- **⚓ Context Anchoring**: Enforces specific references to user-provided files (Context Injection) to prevent generic responses.
 
-- [🎯 What is A-PIRO?](#-what-is-apiro)
-- [✨ Key Features](#-key-features)
-- [📊 Performance Improvements](#-performance-improvements)
-- [🏗️ Project Structure](#️-project-structure)
-- [🚀 Quick Start](#-quick-start)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation-setting-up-apiro-as-claude-agent)
-  - [Basic Usage](#basic-usage)
-  - [Quick Example](#quick-example)
-- [📚 Documentation](#-documentation)
-- [🤖 The A-PIRO Agent](#-the-apiro-agent)
-- [🧠 A-PIRO Methodology Overview](#-apiro-methodology-overview)
-- [💡 Example Transformations](#-example-transformations)
-  - [Example 1: 3D HTML Apple Creation](#-example-1-3d-html-apple-creation)
-  - [Example 2: E-commerce API Development](#-example-2-e-commerce-api-development)
-  - [Example 3: Data Science Analysis](#-example-3-data-science-analysis)
-- [📊 Performance Impact](#-performance-impact)
-- [🎓 Use Cases](#-use-cases)
-- [🤝 Contributing](#-contributing)
-- [📈 Performance Metrics](#-performance-metrics)
-- [🔒 Safety & Ethics](#-safety--ethics)
-- [📄 License](#-license)
-- [👥 Authors](#-authors)
-- [🙏 Acknowledgments](#-acknowledgments)
-- [📞 Support](#-support)
-- [🗓️ Changelog](#-changelog)
-- [🚀 Roadmap](#-roadmap)
+## 🏗️ Execution Pipeline
 
-## ✨ Key Features
+A-PIRO follows a strict algorithmic workflow:
 
-- **10-Phase Structured Methodology**: A comprehensive framework from Intent Recognition to Verification
-- **Evidence-Based Analysis**: All improvements backed by verified research and best practices
-- **Multi-Domain Intelligence**: Tailored approach for software engineering, data science, content creation, and more
-- **Quality Assurance**: 100% compliance with ethical and safety guidelines
-- **Templates & Examples**: Ready-to-use prompt templates and real-world case studies
-- **Performance Metrics**: Measurable improvements in response quality and efficiency
-
-## 📊 Performance Improvements
-
-| Metric | Improvement |
-|--------|-------------|
-| Response Accuracy | 30-50% increase |
-| Token Efficiency | 40-60% reduction |
-| Processing Speed | 25-35% faster |
-| Compliance Rate | 100% standards |
-
-## 🏗️ Project Structure
-
-```
-A-PIRO/
-├── docs/                      # Comprehensive documentation
-│   ├── introduction.md        # A-PIRO overview and philosophy
-│   ├── methodology.md         # Detailed 10-phase methodology
-│   ├── best-practices.md      # Industry best practices
-│   ├── examples.md           # Real-world use cases
-│   └── faq.md                # Frequently asked questions
-├── templates/                 # Prompt optimization templates
-│   ├── software-engineering/
-│   ├── data-science/
-│   ├── content-creation/
-│   └── general-purpose/
-├── examples/                  # Example transformations
-│   ├── before-and-after/
-│   ├── case-studies/
-│   └── benchmarks/
-├── tests/                     # Testing and validation
-│   ├── unit-tests/
-│   ├── integration-tests/
-│   └── benchmark_results/
-└── assets/
-    ├── diagrams/             # Visual aids and diagrams
-    └── images/               # Supporting graphics
-```
+1.  **Input Analysis**: Intent classification & Evidence-based research.
+2.  **Gradient Calculation**: Root Cause Analysis (Fixes) + Success Factor Analysis (Preserve).
+3.  **Pitfall Prediction**: Identifying domain-specific anti-patterns (e.g., "Div Soup" in HTML).
+4.  **Beam Search**: Simulating "Strict" vs "Creative" strategies.
+5.  **Validation Loop**: Iterative scoring and refinement.
+6.  **Content Synthesis**: Injecting Anti-Drift Anchors and Constitutional Safeguards.
+7.  **Output Generation**: Delivering the `System Prompt` and `Process Log`.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Basic understanding of AI language models
-- Familiarity with prompt engineering concepts
-- Access to Claude Code with agent installation capabilities
+- Claude Code (CLI)
+- Access to `Task` tool capabilities
 
-### Installation (Setting up A-PIRO as Claude Agent)
+### Installation
 
-**Note**: "Installation" in this context means deploying the A-PIRO agent into your Claude environment.
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/DarKWinGTM/A-PIRO.git
+    cd A-PIRO
+    ```
 
-1. **Download the A-PIRO Agent File**:
+2.  **Install the Agent**:
+    ```bash
+    # Copy the agent definition to your local Claude Code agents directory
+    cp prompt-optimizer.md ~/.claude/agents/
+    ```
+
+### Usage
+
+**Option 1: Direct Task Invocation**
+Use the `Task` tool to invoke the agent directly on a specific request.
+
 ```bash
-git clone https://github.com/DarKWinGTM/A-PIRO.git
-cd A-PIRO
+Task(subagent_type="prompt-optimizer", prompt="Create a secure FastAPI backend for e-commerce")
 ```
 
-2. **Install the A-PIRO Agent**:
-   - Copy `automatic-prompt-intent-recognition-optimization.md` to your Claude agent directory
-   - The agent file contains the complete A-PIRO methodology as an installable Claude agent
-   - Once installed, you can use A-PIRO directly: `/automatic-prompt-intent-recognition-optimization`
+**Option 2: Chat-based Interaction**
+If installed as a main agent:
 
-3. **Verify Installation**:
-```bash
-# Check if agent is properly installed
-/agents
-# Look for "automatic-prompt-intent-recognition-optimization" in available agents
+```text
+@prompt-optimizer Create a rigorous system prompt for a Python Data Science Expert
 ```
 
-4. **Start Using A-PIRO**:
-```bash
-# Launch the A-PIRO agent
-@agent-automatic-prompt-intent-recognition-optimization "Your prompt here"
+## 📦 Output Artifacts
 
-# Alternative: Use in chat
-@agent-automatic-prompt-intent-recognition-optimization Create optimized prompt for...
-```
+For every run, A-PIRO generates two files:
 
-### Basic Usage
+1.  **`{filename}.md`**: The optimized **System Prompt** (The final product).
+2.  **`{filename}.apo_log.md`**: The **Process Log** (Transparency report showing gradients, scores, and decisions).
 
-1. **Review the Methodology**: Start with [docs/introduction.md](docs/introduction.md)
-2. **Study the 10 Phases**: Dive into [docs/methodology.md](docs/methodology.md)
-3. **Use Templates**: Explore ready-made templates in [templates/](templates/)
-4. **See Examples**: Check out transformations in [examples/](examples/)
-5. **Apply A-PIRO**: Use `@agent-automatic-prompt-intent-recognition-optimization` with your prompt
+## 🔒 Safety & Constitutional Principles
 
-### Quick Example
-```
-@agent-automatic-prompt-intent-recognition-optimization
-Create a secure authentication system for a web application
-```
+A-PIRO operates under strict **Constitutional Safeguards**:
 
-## 📚 Documentation
-
-### Core Documents
-
-- **[Introduction](docs/introduction.md)**: Understanding A-PIRO's core principles
-- **[Methodology](docs/methodology.md)**: Complete 10-phase optimization process
-- **[Best Practices](docs/best-practices.md)**: Industry-tested optimization strategies
-- **[Examples](docs/examples.md)**: Practical use cases and transformations
-- **[FAQ](docs/faq.md)**: Common questions and troubleshooting
-
-### Templates
-
-- **[Software Engineering](templates/software-engineering/)**: Code generation, debugging, architecture
-- **[Data Science](templates/data-science/)**: Analysis, modeling, visualization
-- **[Content Creation](templates/content-creation/)**: Writing, marketing, copywriting
-- **[General Purpose](templates/general-purpose/)**: Adaptable templates for any domain
-
-### 🤖 The A-PIRO Agent
-
-The core of this repository is `automatic-prompt-intent-recognition-optimization.md` - a complete Claude agent that implements the A-PIRO methodology. This agent can be installed directly into Claude Code to provide automated prompt optimization.
-
-**Agent Features**:
-- Automatic 10-phase optimization
-- Intent recognition and analysis
-- Multi-domain intelligence
-- Real-time prompt transformation
-- Built-in quality assessment
-
-**Agent Installation**:
-```bash
-# For Claude Code users
-cp automatic-prompt-intent-recognition-optimization.md ~/.claude/agents/
-# Then restart Claude Code
-```
-
-## 🧠 A-PIRO Methodology Overview
-
-### The 10 Phases
-
-1. **Intent Recognition**: Identify the true objective behind the prompt
-2. **Evidence-Based Analysis**: Verify facts and eliminate assumptions
-3. **Structured Reasoning**: Apply systematic thinking (CoT, ToT, GoT)
-4. **Cross-Reference Validation**: Ensure consistency across all sections
-5. **Information Architecture**: Organize content for optimal comprehension
-6. **Intent Clarification**: Eliminate ambiguities before implementation
-7. **System Prompt Integration**: Seamlessly integrate with system constraints
-8. **Quality Assessment**: Evaluate complexity and assign optimization level
-9. **Multi-Agent Collaboration**: Deploy specialized agents for complex tasks
-10. **Retrieval of Thoughts Memory**: Build reusable knowledge for efficiency
-
-## 💡 Example Transformations
-
-The examples below show how A-PIRO transforms vague prompts into detailed, optimized prompts.
-**Input**: Simple prompt sent to A-PIRO agent
-**Output**: Detailed, structured prompt ready for immediate use
-
-### 🎯 Example 1: 3D HTML Apple Creation
-
-**Input (User Request):**
-```
-"Create 3D HTML apple"
-```
-
-**Agent Invocation:**
-```
-I want to get a prompt for Create 3D HTML apple
-@agent-automatic-prompt-intent-recognition-optimization 
-```
-
-**Optimized Prompt Output (A-PIRO Generated):**
-```markdown
-**Objective**: Create a photorealistic 3D apple using pure CSS for web display
-
-**Technical Requirements**:
-- Technology: Pure CSS 3D transforms (no images or Canvas)
-- Dimensions: 3D realistic with shadows and depth
-- Size: 200x200px minimum
-- Compatibility: Modern browsers with CSS Grid + Flexbox fallback
-
-**Visual Specifications**:
-- **Shape**: Realistic apple form with natural curves
-- **Colors**:
-  - Body: Gradient from #FF6B6B to #CC0000
-  - Stem: Brown (#8B4513) with subtle curve
-  - Leaf: Green (#228B22) with realistic shape
-- **Lighting**: Top-left light source with soft shadows
-- **Surface**: Subtle texture for realistic appearance
-
-**CSS Techniques Required**:
-- `transform-style: preserve-3d`
-- Multiple `transform3d()` for shape creation
-- `box-shadow` for depth and shadows
-- CSS gradients for color transitions
-- `::before` and `::after` pseudo-elements for details
-
-**Deliverables**:
-1. Complete HTML structure
-2. CSS stylesheet with 3D transforms
-3. Responsive design compatibility
-4. Cross-browser testing results
-5. Performance optimization notes
-
-**Success Criteria**:
-- Visual realism score: 8.5+/10
-- Performance: <1s render time
-- Mobile responsiveness: 100%
-- Browser compatibility: Chrome 60+, Firefox 55+, Safari 12+
-```
-
-### 🎯 Example 2: E-commerce API Development
-
-**Input (User Request):**
-```
-"Create an API for user management"
-```
-
-**Agent Invocation:**
-```
-Optimize this prompt 
-@agent-automatic-prompt-intent-recognition-optimization Create API for user management
-```
-
-**Optimized Prompt Output (A-PIRO Generated):**
-```markdown
-**Objective**: Build production-ready REST API for user management system
-
-**Technology Stack**:
-- Runtime: Node.js 18+
-- Framework: Express.js
-- Database: PostgreSQL 14+
-- Authentication: JWT (access + refresh tokens)
-- Validation: Joi
-- Testing: Jest + Supertest
-
-**Core Features**:
-- User registration with email verification
-- Secure password handling (bcrypt, salt rounds ≥12)
-- Session management with JWT tokens
-- Input validation and SQL injection prevention
-- OWASP security compliance
-- Rate limiting (100 requests/minute)
-
-**API Endpoints**:
-- POST /api/v1/auth/register
-- POST /api/v1/auth/login
-- GET /api/v1/auth/me
-- GET /api/v1/users (paginated)
-- PUT /api/v1/users/:id
-- DELETE /api/v1/users/:id
-
-**Security Requirements**:
-- All inputs validated
-- SQL injection prevention
-- XSS protection
-- CORS configuration
-- Security headers (Helmet.js)
-
-**Performance Standards**:
-- Response time: <200ms average
-- Concurrent users: 1000+
-- Test coverage: ≥90%
-
-**Deliverables**:
-1. Complete source code
-2. API documentation (OpenAPI)
-3. Test suite with coverage
-4. Docker configuration
-5. Deployment guide
-```
-
-### 🎯 Example 3: Data Science Analysis
-
-**Input (User Request):**
-```
-"Analyze sales data to find patterns"
-```
-
-**Agent Invocation:**
-```
-@agent-automatic-prompt-intent-recognition-optimization Analyze sales data to find patterns
-```
-
-**Optimized Prompt Output (A-PIRO Generated):**
-```markdown
-**Objective**: Analyze e-commerce sales data to identify customer behavior patterns and actionable insights
-
-**Data Context**:
-- **Dataset**: Sales transactions (2023-2024)
-- **Size**: 50,000+ transactions
-- **Format**: PostgreSQL database with customer, product, and order tables
-
-**Analysis Requirements**:
-
-**Key Questions to Answer**:
-- What are peak purchasing patterns by season/day/time?
-- Which customer segments have highest lifetime value?
-- What products are frequently purchased together?
-- What factors predict customer churn?
-
-**Methodology**:
-- RFM (Recency, Frequency, Monetary) analysis
-- Customer segmentation using K-means clustering
-- Market basket analysis with Apriori algorithm
-- Time series analysis for seasonal trends
-- Statistical significance testing (p < 0.05)
-
-**Deliverables**:
-1. Executive summary with key findings
-2. Interactive dashboard with visualizations
-3. Customer segment profiles
-4. Product recommendation insights
-5. Churn prediction model
-6. Actionable business recommendations
-
-**Tools & Technologies**:
-- Python: pandas, scipy, scikit-learn
-- Visualization: matplotlib, seaborn, plotly
-- Database: PostgreSQL + SQL queries
-- Statistical analysis: A/B testing capabilities
-```
-
-## 📝 Additional Example: Performance Optimization
-
-**Input (User Request):**
-```
-"Optimizing performance for image.lazy.manager.js"
-```
-
-**Agent Invocation:**
-```
-I want to get a prompt for Optimize performance for image.lazy.manager.js in awcloud cpanel
-@agent-automatic-prompt-intent-recognition-optimization
-```
-
-**Optimized Prompt Output (A-PIRO Generated):**
-```markdown
-**Objective**: Optimize JavaScript performance for image.lazy.manager.js in web cpanel system
-
-**File Context**:
-- **File**: image.lazy.manager.js (JavaScript performance optimization)
-- **Purpose**: Lazy loading image management system for web cpanel
-- **Current Issue**: Slow performance, memory leaks, inefficient DOM manipulation
-
-**Performance Targets**:
-- Reduce initial load time by 40%+ (from 3s to <2s)
-- Improve memory efficiency by 30% (fix memory leaks)
-- Enhance Core Web Vitals compliance
-- Support 1000+ concurrent image loads
-- Minimize main thread blocking
-
-**Technical Optimization Requirements**:
-- Implement Intersection Observer v2 API
-- Add progressive image loading with blur effects
-- Create adaptive quality based on network conditions
-- Optimize memory usage with object pooling
-- Add preload for critical above-fold images
-- Implement error boundaries with fallback strategies
-- Use requestIdleCallback for non-critical operations
-- Optimize event listeners and remove properly
-- Implement virtual scrolling for large image sets
-
-**Code Quality Standards**:
-- ESLint compliance with zero warnings
-- Unit test coverage >95%
-- Memory leak prevention (Chrome DevTools validation)
-- Performance budget: <50KB gzipped JavaScript
-- Cross-browser compatibility: Chrome 70+, Firefox 65+, Safari 13+
-
-**Security Considerations**:
-- Sanitize all image URLs
-- Implement CSP (Content Security Policy)
-- Validate image dimensions before processing
-- Prevent XSS through proper DOM manipulation
-- Add rate limiting for image requests
-
-**Deliverables**:
-1. Optimized JavaScript code with performance improvements
-2. Performance benchmark report (before/after metrics)
-3. Memory usage analysis and leak fixes
-4. Core Web Vitals impact assessment
-5. Browser compatibility testing results
-6. Implementation guide with best practices
-
-**Success Metrics**:
-- Largest Contentful Paint (LCP): <2.5s
-- First Input Delay (FID): <100ms
-- Cumulative Layout Shift (CLS): <0.1
-- Memory usage reduction: 30%+
-- Load performance improvement: 40%+
-- Test coverage: 95%+
-```
-
-## 📊 Performance Impact
-
-| Metric | Before A-PIRO | After A-PIRO | Improvement |
-|--------|--------------|--------------|-------------|
-| Prompt Clarity | 3/10 | 9/10 | +200% |
-| Response Accuracy | 65% | 92% | +42% |
-| Development Time | 4+ hours | 30 minutes | -87% |
-| User Satisfaction | 6/10 | 9.5/10 | +58% |
-
-Ready to transform your prompts? Start using A-PIRO today!
-
-## 🎓 Use Cases
-
-### Software Engineering
-- Code generation and architecture design
-- Debugging and optimization
-- Documentation and testing
-- DevOps and deployment strategies
-
-### Data Science
-- Data analysis and visualization
-- Model training and evaluation
-- Statistical analysis
-- Report generation
-
-### Content Creation
-- Technical writing
-- Marketing copy
-- Educational materials
-- Creative writing assistance
-
-### Business & Strategy
-- Problem-solving frameworks
-- Decision-making processes
-- Strategic planning
-- Market analysis
+1.  **Anti-Mockup Policy**: No placeholders (`pass`, `TODO`). Real implementation only.
+2.  **Zero Hallucination**: No guessing APIs. Must verify against docs.
+3.  **Architect Stance**: The agent designs the *blueprint* (Prompt), it does not write the *application code* directly.
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Ways to Contribute
-- Submit new templates and examples
-- Improve documentation
-- Report bugs and issues
-- Suggest enhancements
-- Share your A-PIRO success stories
-
-## 📈 Performance Metrics
-
-Based on extensive testing across multiple domains:
-
-- **Response Accuracy**: 30-50% improvement
-- **Token Efficiency**: 40-60% reduction in tokens
-- **Processing Speed**: 25-35% faster execution
-- **Cost Optimization**: 25-35% lower API costs
-- **Compliance Rate**: 100% standards adherence
-
-## 🔒 Safety & Ethics
-
-A-PIRO methodology strictly adheres to:
-- Ethical AI guidelines
-- Safety-first approach
-- Constitutional safeguards
-- Privacy protection
-- Transparency requirements
+We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
-
-- **DarKWinGTM** - *Initial work* - [GitHub](https://github.com/DarKWinGTM)
-
-## 🙏 Acknowledgments
-
-- AI research community for prompt engineering insights
-- Open source contributors and testers
-- Industry practitioners who provided real-world case studies
-
-## 📞 Support
-
-- **GitHub Issues**: [Report bugs and feature requests](https://github.com/DarKWinGTM/A-PIRO/issues)
-- **Discussions**: [Join the community](https://github.com/DarKWinGTM/A-PIRO/discussions)
-- **Email**: [Contact us](mailto:darkwingtm@example.com)
-
-## 🗓️ Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
-## 🚀 Roadmap
-
-- [ ] Interactive web-based A-PIRO optimizer
-- [ ] IDE plugins (VS Code, IntelliJ, etc.)
-- [ ] API for automated prompt optimization
-- [ ] More domain-specific templates
-- [ ] Community-driven template library
-- [ ] Video tutorials and workshops
-
 ---
 
----
-
-## 🌟 How You Can Help A-PIRO Grow
-
-### ⭐ Star the Repository
-Give us a star on GitHub to help others discover A-PIRO!
-
-### 🔗 Share with Your Network
-- **Share on Twitter**: "Just discovered A-PIRO - a game-changer for prompt engineering with Claude AI! [GitHub Link]"
-- **Post on LinkedIn**: Share how A-PIRO improved your AI interactions
-- **Reddit**: Post in r/ClaudeAI, r/PromptEngineering, or r/MachineLearning
-- **Hacker News**: Submit for technical community discussion
-
-### 📝 Contribute Content
-- Add your own success stories to `examples/`
-- Create new templates for your domain
-- Improve documentation
-- Report bugs and suggest features
-
-### 🏆 Community Recognition
-Top contributors will be featured in our README and mentioned in our documentation.
-
----
-
-## 🔍 Discoverability Features
-
-### **GitHub Topics & Tags**
-```
-ai, prompt-engineering, claude-ai, llm, machine-learning,
-automation, optimization, agent, productivity, artificial-intelligence
-```
-
-### **Search Keywords**
-- A-PIRO
-- Prompt optimization
-- Claude agent
-- AI automation
-- LLM enhancement
-- Intent recognition
-- Structured prompting
-
-### **Community Resources**
-- [Claude AI Community](https://claude.ai/community)
-- [Reddit: r/ClaudeAI](https://reddit.com/r/ClaudeAI)
-- [Prompt Engineering Newsletter](https://example.com)
-- [AI Tools Directory](https://example.com)
-
-### **Citation & Attribution**
-If you use A-PIRO in your work, please cite:
-
-```bibtex
-@software{apiro_2025,
-  title={A-PIRO: Automatic Prompt Intent Recognition Optimization},
-  author={DarKWinGTM},
-  year={2025},
-  url={https://github.com/DarKWinGTM/A-PIRO}
-}
-```
-
----
-
-## 📊 Repository Analytics (Real-time)
-
-- **GitHub Stars**: ![GitHub Repo stars](https://img.shields.io/github/stars/DarKWinGTM/A-PIRO?style=social)
-- **GitHub Forks**: ![GitHub forks](https://img.shields.io/github/forks/DarKWinGTM/A-PIRO?style=social)
-- **GitHub Issues**: ![GitHub issues](https://img.shields.io/github/issues/DarKWinGTM/A-PIRO)
-- **Pull Requests**: ![GitHub pull requests](https://img.shields.io/github/issues-pr/DarKWinGTM/A-PIRO)
-- **Last Commit**: ![GitHub last commit](https://img.shields.io/github/last-commit/DarKWinGTM/A-PIRO)
-
----
-
-⭐ **If you find A-PIRO helpful, please consider giving it a star on GitHub!**
-🚀 **Together, let's build the future of AI prompt optimization!**
-
-Built with ❤️ by the A-PIRO Team | [Contact Us](mailto:darkwingtm@example.com)
+**Built with ❤️ by the A-PIRO Team**
